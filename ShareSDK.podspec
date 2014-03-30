@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author        = { 'qpwang' => 'wqqqqq21@gmail.com' }
   s.platform      = :ios, '6.0'
   s.source        = {
-      :git => 'https://github.com/qpwang/FlatDatePicker.git',
+      :git => 'https://github.com/qpwang/ShareSDK.git',
       :tag => '2.8.6'
   }
   s.public_header_files = 'ShareSDK.framework/Headers/*.h'
