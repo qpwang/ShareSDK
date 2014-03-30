@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name          = 'ShareSDK'
-  s.version       = '2.8.5'
+  s.version       = '2.8.6'
   s.summary       = 'ShareSDK lib'
   s.homepage      = 'https://github.com/qpwang/ShareSDK'
   s.author        = { 'qpwang' => 'wqqqqq21@gmail.com' }
@@ -11,9 +11,12 @@ Pod::Spec.new do |s|
       :tag => '2.8.6'
   }
   s.public_header_files = 'ShareSDK.framework/Headers/*.h'
-  s.source_files  = 'ShareSDK.framework/*'
-  s.requires_arc  = true
+  s.source_files  = 'ShareSDK.framework/Headers/*.h'
+  s.preserve_paths = 'ShareSDK.framework/*'
+  s.frameworks = 'ShareSDK'
   s.license = 'MIT'
+  s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/ShareSDK"' }
+  s.requires_arc = false
 
 end
 
