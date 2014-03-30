@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   }
   s.public_header_files = 'ShareSDK.framework/Headers/*.h'
   s.source_files  = 'ShareSDK.framework/Headers/*.h'
-  s.preserve_paths = 'ShareSDK.framework/*'
+  s.preserve_paths = '*'
   s.frameworks = 'ShareSDK'
   s.license = 'MIT'
   s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/ShareSDK"' }
