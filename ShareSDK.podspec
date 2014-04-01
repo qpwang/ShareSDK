@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
       :git => 'https://github.com/qpwang/ShareSDK.git',
       :tag => '2.8.6'
   }
-  s.source_files  = '*'
+  s.preserve_paths = '*'
   s.vendored_frameworks = 'ShareSDK.framework', 'Extend/**/*.framework', 'Core/*.framework', 'Connection/*.framework', 'UI/*.framework'
   s.vendored_libraries = 'Extend/**/*.a'
   s.license = 'MIT'
