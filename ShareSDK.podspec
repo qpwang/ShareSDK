@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.license = 'MIT'
   s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/ShareSDK"' }
   s.framework = 'SystemConfiguration', 'QuartzCore', 'CoreTelephony', 'Security', 'ImageIO', 'Social', 'Accounts'
-  s.library = 'icucore', 'z.1.2.5', 'stdc', 'sqlite3'
+  s.library = 'icucore', 'z.1.2.5', 'stdc++', 'sqlite3'
   s.requires_arc = false
 
 end
