@@ -16,6 +16,8 @@ Pod::Spec.new do |s|
   s.vendored_libraries = 'Extend/**/*.a'
   s.license = 'MIT'
   s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/ShareSDK"' }
+  s.framework = 'SystemConfiguration', 'QuartzCore', 'CoreTelephony', 'Security', 'ImageIO', 'Social', 'Accounts'
+  s.library = 'libicucore', 'libz.1.2.5', 'libstdc', 'libsqlite3'
   s.requires_arc = false
 
 end
