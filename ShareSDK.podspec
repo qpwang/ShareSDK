@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
 
   s.name          = 'ShareSDK'
-  s.version       = '2.10.4'
+  s.version       = '2.10.5'
   s.summary       = 'ShareSDK lib'
   s.homepage      = 'https://github.com/qpwang/ShareSDK'
   s.author        = { 'qpwang' => 'wqqqqq21@gmail.com' }
   s.platform      = :ios, '6.0'
   s.source        = {
       :git => 'https://github.com/qpwang/ShareSDK.git',
-      :tag => '2.10.4'
+      :tag => '2.10.5'
   }
   s.source_files = 'Extend/**/*.{h,m}'
   s.resources = 'Extend/**/*.bundle', 'Core/*.{bundle,lproj}', 'UI/*.bundle'
